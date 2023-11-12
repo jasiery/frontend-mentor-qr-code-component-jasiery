@@ -20,19 +20,35 @@ body {
     border-radius: 15px;
 }
 
-@media (max-width: 1440px) {
+
+/* bootstrap 5 default breakpoints */
+/* x-small */
+@media (max-width: 576px) {
+
+}
+
+/* small, sm */
+@media (min-width: 576px) {
+
+}
+
+/* medium, md */
+@media (min-width: 768px)
+ {
+    .container {
+        width: 25rem!important;
+    }
     img {
-        width: 50%;
+        width: 100%;
     }
 }
 
-@media (max-width: 425px) {
-    .text-h4 {
-        font-size: 1.275rem;
+/* large, lg */
+@media (min-width: 992px) {
+    .container {
+        width: 25rem!important;
     }
-
-    .text-h5 {
-        font-size: 0.9rem;
+    img {
+        width: 100%;
     }
-    
 }
