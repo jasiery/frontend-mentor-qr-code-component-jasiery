@@ -22,21 +22,57 @@ body {
 
 
 /* bootstrap 5 default breakpoints */
+/* mobile S, 320*/
+@media (max-width: 320px) {
+    h5 {
+        font-size: medium;
+    }
+}
 /* x-small */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
+    .mx-sm-1 {
+        margin-right: 1.5rem!important;
+        margin-left: 1.5rem!important;
+    }
+} */
+@media (min-width: 375px) {
+    .mx-sm-1 {
+        margin-right: 1.5rem!important;
+        margin-left: 1.5rem!important;
+    }
+}
 
+/* custom screen : iphone */
+@media (min-width: 390px) {
+    .mx-sm-1 {
+        margin-right: 1.5rem!important;
+        margin-left: 1.5rem!important;
+    }
+}
+/* mobile L, 425*/
+@media (min-width: 425px) {
+    .mx-md-1 {
+        margin-right: 1.5rem!important;
+        margin-left: 1.5rem!important;
+    }
 }
 
 /* small, sm */
 @media (min-width: 576px) {
-
+    .mx-sm-1 {
+        margin-right: 1.5rem!important;
+        margin-left: 1.5rem!important;
+    }
 }
 
 /* medium, md */
-@media (min-width: 768px)
- {
+@media (min-width: 768px) {
+    .mx-sm-1 {
+        margin-right: 1.5rem!important;
+        margin-left: 1.5rem!important;
+    }
     .container {
-        width: 25rem!important;
+        width: 25rem !important;
     }
     img {
         width: 100%;
@@ -46,8 +82,9 @@ body {
 /* large, lg */
 @media (min-width: 992px) {
     .container {
-        width: 25rem!important;
+        width: 25rem !important;
     }
+
     img {
         width: 100%;
     }
