@@ -24,9 +24,6 @@ body {
 /* bootstrap 5 default breakpoints */
 /* mobile S, 320*/
 @media (max-width: 320px) {
-    h5 {
-        font-size: medium;
-    }
 }
 /* x-small */
 /* @media (max-width: 576px) {
